@@ -5,55 +5,148 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&amp;family=Cormorant+Garamond:wght@300;400&amp;family=Montserrat:wght@300&amp;display=swap" rel="stylesheet" />
 <style>
 h1 h2 h3 h4 h5 {
-	font-family: 'Cinzel', serif;
+	font-family: Cinzel, "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 p i {
 	font-family: 'Cormorant Garamond', serif;
 	font-weight: 300;
 }
+.content {
+	width: 90%;
+	margin: auto
+}
 .body-text {
 	font-family: 'Cormorant Garamond', serif;
 	font-weight: 300;
-	font-size: 1.2rem
+	font-size: 1.2rem;
+	text-align: justify;
 }
 .info {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 0.8rem
+	font-size: 0.9rem
+}
+.sub-head {
+	text-align: center;
+	font-family: cinzel
+}
+.center {
+	text-align: center;
+}
+h1 {
+	font-family: Cinzel, "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Cinzel, "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+/*
+	font-size: 14px;
+*/
+	font-size: 1.4rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+/*
+	line-height: 15.4px;
+*/
+}
+p {
+	font-family: 'Cormorant Garamond', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+/*
+	font-size: 14px;
+*/
+	font-size: 1.2rem;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+/*
+	line-height: 20px;
+*/
+}
+blockquote {
+	font-family: 'Cormorant Garamond', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: 'Cormorant Garamond', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+.content {
+	max-width: 1200;
+	margin: auto;
+}
 }
 </style>
 </head>
 <body>
-<div><img style="width: 100%; max-width: 600px;" src="https://static.wixstatic.com/media/6957cb_7db2e61b282345628ab75a6863756925~mv2.jpeg" alt="" /></div>
-<div>&nbsp;</div>
-<div class="body-text">
-  <p>Hi &lt;CLIENTFIRSTNAME&gt;,</p>
-  <p>This is Reception from Glow with booking advice for your appointment(s) on &lt;DAYOFWEEK&gt; &lt;DATE&gt; at &lt;STARTTIME&gt; with &lt;INSTRUCTOR&gt;.</p>
-  <p>Your booking is/are:<br />
-  </p>
-  <div class="info">
-    <p>&lt;APPTINFO&gt;</p>
+<div class="content">
+  <div><img style="width: 100%;" src="https://static.wixstatic.com/media/6957cb_7db2e61b282345628ab75a6863756925~mv2.jpeg" alt="" /> </div>
+  <div>&nbsp;</div>
+  <div class="body-text">
+    <h3>Booking</h3>
+    <p>Hi &lt;CLIENTFIRSTNAME&gt;,</p>
+    <p>This is Reception from Glow with booking advice for your appointment(s) on &lt;DAYOFWEEK&gt; &lt;DATE&gt; at &lt;STARTTIME&gt; with &lt;INSTRUCTOR&gt;.</p>
+    <p>Your booking is/are:<br />
+    </p>
+    <div class="info">
+      <p>&lt;APPTINFO&gt;</p>
+    </div>
+    <!--  <p><em>Important:</em>&lt;CLIENTFORMS&gt;</p>
+  <p>Only one of each questionnaire or agreemeent need be completed if you are presented duplicates in the above list.</p>-->
+    
+    <p>For your convenience, a calendar attachment is included in this email.</p>
+    <p>We’re looking forward to seeing you at our Central location:</p>
+    <p>8/F Silver Fortune Plaza,<br>
+      1 Wellington Street,<br>
+      Central.</p>
+    <p>See you soon!</p>
+    <p>Kind regards,
+      Reception</p>
   </div>
-  <p>Glow is implementing the recommended precautions to limit the spread of COVID-19.</p>
-  <p>We have given due consideration to the current changing situation and the Hong Kong Government's latest guidelines to control the virus spread within Hong Kong.</p>
-  <p>With these factors in mind, we respectfully request that, if you have recently arrived in Hong Kong, you delay your appointments until after you have completed the required 14-day quarantine.</p>
-  <p>This request also applies to any members of your family or friends with whom you share a household or who may be accompanying you to the appointment.</p>
-  <p>For your convenience, a calendar attachment is included in this email.</p>
-  <p>We&rsquo;re looking forward to seeing you at our Central location:</p>
-  <p>8/F Silver Fortune Plaza, 1 Wellington Street, Central.</p>
-  <p>See you soon!</p>
-  <p>Kind regards,</p>
-  <p>Reception</p>
+  <div>
+    <p class="info">Web: https://glowspa.hk<br />
+      Phone: +852 2525 5198<br />
+      Mobile and WhatsApp: +852 9680 2107<br />
+      Map: https://goo.gl/maps/U5DKGCbRTyjj1gJ89</p>
+  </div>
+  <p class="info">Did you know you can now book via the Mindbody app? Download for iOS and Android from https://mindbody.io</p>
+  <div class="body-text">
+    <h3>COVID-19</h3>
+  </div>
+  <div class="body-text">
+    <p>Glow is implementing the recommended precautions to limit the spread of COVID-19.
+      We have given due consideration to the current changing situation and the Hong Kong Government's latest guidelines to control the virus spread within Hong Kong.
+      With these factors in mind, we respectfully request that, if you have recently arrived in Hong Kong, you delay your appointments until after you have completed the required 14-day quarantine.
+      This request also applies to any members of your family or friends with whom you share a household or who may be accompanying you to the appointment.&nbsp;</p>
+  </div>
+  <div class="center"><img style="width: 100%; max-width: 600px;" src="https://static.wixstatic.com/media/6957cb_25a426523f174e29914019574c404b20~mv2.jpeg" alt="" /></div>
+  <p id="demo">&nbsp;</p>
 </div>
-<div class="info">
-  <p>Web: https://glowspa.hk<br />
-    Phone: +852 2525 5198<br />
-    Mobile and WhatsApp: +852 9680 2107<br />
-    Map: https://goo.gl/maps/U5DKGCbRTyjj1gJ89</p>
-</div>
-<p class="info">Did you know you can now book via the Mindbody app? Download for iOS and Android from https://mindbody.io</p>
-<div>&nbsp;</div>
-<div><img style="width: 100%; max-width: 600px;" src="https://static.wixstatic.com/media/6957cb_25a426523f174e29914019574c404b20~mv2.jpeg" alt="" /></div>
-<p id="demo">&nbsp;</p>
 </body>
 </html>
